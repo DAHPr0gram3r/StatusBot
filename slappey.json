@@ -1,0 +1,7 @@
+{
+  "name": "Status-Bot",
+  "language": "javascript",
+  "manager": "npm",
+  "token": "",
+  "prefix": "!"
+}
