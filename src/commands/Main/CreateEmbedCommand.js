@@ -17,7 +17,20 @@ module.exports = class TestCommand extends BaseCommand {
     
     if (author.id === "182147481252003840" | "495326400149061670") {
       await channel.send(new discordjs.MessageEmbed().setTitle("TEMP")).then(message => {
-        message.edit(message.embeds[0].addField("Message ID:", message.id))
+        message.edit(message.embeds[0].addFields([
+          {
+            "name": "Guild ID:",
+            "value": message.guild.id
+          },
+          {
+            "name": "Channel ID:",
+            "value": message.channel.id
+          },
+          {
+            "name": "Message ID:",
+            "value": message.id
+          }
+        ]))
       })
     }
   }
