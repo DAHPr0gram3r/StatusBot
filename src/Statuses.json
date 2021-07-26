@@ -1,7 +1,9 @@
 [
     {
         "GuildID": "765725981238886450",
+        "ChannelID": "765725981687283775",
         "MessageID": "868972102030602240",
+        "ServerImage": "https://cdn.discordapp.com/icons/860640139910316042/36371b2639f23ba0cdf23c66d721a61e.webp",
         "ServerName": "Roxy's RP",
         "ServerHost": "45.85.194.122",
         "UseCustomPort": false,
